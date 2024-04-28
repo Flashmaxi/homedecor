@@ -1,5 +1,6 @@
 import { RiInstagramFill, RiFacebookBoxFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import Logo from "../../assets/hdlogo.svg";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
             <a className="flex justify-center xl:justify-start mb-8" href="/">
               <img
                 className="mx-auto xl:mx-0"
-                src="/src/assets/hdlogo.svg"
+                src={Logo}
                 alt=""
                 height={100}
                 width={240}
