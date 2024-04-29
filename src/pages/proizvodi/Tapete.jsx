@@ -32,7 +32,7 @@ export default function Tapete() {
             <div className="about__img order-1 xl:order-none max-w-[453px] mx-auto xl:max-w-[453px] xl:mx-0">
               <img
                 className="rounded-tr-[160px] rounded-bl-[120px]"
-                src="/public/assets/proizvodi/tapete.jpg"
+                src="/assets/proizvodi/tapete.jpg"
                 alt=""
               />
             </div>
