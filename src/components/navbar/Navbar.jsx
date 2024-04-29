@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { RiMenu4Line } from "react-icons/ri";
 import { navigation } from "../../data";
-import Logo from "../../assets/hdlogo.svg";
+import Logo from "../../../public/assets/hdlogo.svg";
 
 export default function Navbar() {
   // State to manage the visibility of the mobile menu

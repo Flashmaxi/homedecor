@@ -2,17 +2,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-import Draperije from "../../assets/didyouknow/draperije.jpg";
-import Kraljevske from "../../assets/didyouknow/kraljevske-zavese.jpg";
-import Kruzne from "../../assets/didyouknow/kruzne-zavese.jpg";
-import Prirodne from "../../assets/didyouknow/prirodni-materijali.jpg";
-import Rimske from "../../assets/didyouknow/rimske-roletne.jpg";
-import RimskeZavese from "../../assets/didyouknow/rimske-zavese.jpg";
-import RoletneTrska from "../../assets/didyouknow/roletne-trska.jpg";
-import Tamne from "../../assets/didyouknow/tamne-zavese.jpg";
-import Tit from "../../assets/didyouknow/tit-mehanizam.jpg";
-import Venecijaneri from "../../assets/didyouknow/venecijaneri.jpg";
-import Zapadna from "../../assets/didyouknow/zapadna-ruza.jpg";
+import Draperije from "/public/assets/didyouknow/draperije.jpg";
+import Kraljevske from "/public/assets/didyouknow/kraljevske-zavese.jpg";
+import Kruzne from "/public/assets/didyouknow/kruzne-zavese.jpg";
+import Prirodne from "/public/assets/didyouknow/prirodni-materijali.jpg";
+import Rimske from "/public/assets/didyouknow/rimske-roletne.jpg";
+import RimskeZavese from "/public/assets/didyouknow/rimske-zavese.jpg";
+import RoletneTrska from "/public/assets/didyouknow/roletne-trska.jpg";
+import Tamne from "/public/assets/didyouknow/tamne-zavese.jpg";
+import Tit from "/public/assets/didyouknow/tit-mehanizam.jpg";
+import Venecijaneri from "/public/assets/didyouknow/venecijaneri.jpg";
+import Zapadna from "/public/assets/didyouknow/zapadna-ruza.jpg";
 
 export default function DalisteZnali() {
   const swiperContent = [

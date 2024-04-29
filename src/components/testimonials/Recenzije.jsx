@@ -1,9 +1,9 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import Avatar1 from "../../../src/assets/testimonials/01.png";
-import Avatar2 from "../../../src/assets/testimonials/avatar2.png";
-import Avatar3 from "../../../src/assets/testimonials/avatar3.png";
-import Avatar4 from "../../../src/assets/testimonials/avatar4.png";
+import Avatar1 from "../../../public/assets/testimonials/avatar2.png";
+import Avatar2 from "../../../public/assets/testimonials/avatar2.png";
+import Avatar3 from "../../../public/assets/testimonials/avatar3.png";
+import Avatar4 from "../../../public/assets/testimonials/avatar4.png";
 
 import "swiper/css";
 import "swiper/css/navigation";

@@ -30,7 +30,7 @@ export default function Service() {
                       <p>{subtitle}</p>
                     </div>
                     <Link
-                      className="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full flex items-center justify-center"
+                      className="bg-primary text-accent hover:bg-primary/80 w-[70px] h-[70px] rounded-full flex items-center justify-center"
                       to={btnlink}
                     >
                       {icon}

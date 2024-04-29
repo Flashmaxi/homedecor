@@ -1,6 +1,6 @@
 import { RiInstagramFill, RiFacebookBoxFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/hdlogo.svg";
+import Logo from "../../../public/assets/hdlogo.svg";
 
 export default function Footer() {
   return (
