@@ -18,8 +18,7 @@ export default {
       secondary: "Jost",
     },
     backgroundImage: {
-      hero: 'url("/src/assets/hero/bg.jpg")',
-      grid: 'url("/src/assets/grid.png")',
+      hero: 'url("./src/assets/hero/bg.jpg")',
     },
     extend: {
       colors: {
