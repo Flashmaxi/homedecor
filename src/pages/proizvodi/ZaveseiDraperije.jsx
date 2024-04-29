@@ -38,7 +38,7 @@ export default function ZaveseiDraperije() {
             <div className="about__img order-1 xl:order-none max-w-[453px] mx-auto xl:max-w-[453px] xl:mx-0">
               <img
                 className="rounded-tr-[160px] rounded-bl-[120px]"
-                src="/src/assets/proizvodi/zavese.avif"
+                src="/public/assets/proizvodi/zavese.avif"
                 alt=""
               />
             </div>
