@@ -6,7 +6,7 @@ export default function Hero() {
   const { title, description, btntext, btnlink } = hero;
   return (
     <section
-      className="hero h-[640px] xl:h-[840px] bg-bottom lg:bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20"
+      className="hero h-[640px] xl:h-[840px] bg-bottom lg:bg-center bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20"
       style={{
         backgroundImage: `url("/assets/hero/bg.jpg")`,
       }}
