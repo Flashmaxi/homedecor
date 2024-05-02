@@ -34,7 +34,7 @@ export default function HotelskiProgram() {
               </p>
 
               <a
-                href="../../public/katalog.pdf"
+                href="/Hotel Decor katalog.pdf"
                 className="btn btn-primary"
                 download
               >

@@ -2,6 +2,7 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import PhotoAlbum from "react-photo-album";
 import { tapete } from "../../data";
+import { Nazad } from "../../components/nazad/Nazad";
 
 export default function Tapete() {
   return (
@@ -40,6 +41,7 @@ export default function Tapete() {
 
           <PhotoAlbum layout="rows" photos={tapete} />
         </div>
+        <Nazad />
       </section>
       <Footer />
     </>

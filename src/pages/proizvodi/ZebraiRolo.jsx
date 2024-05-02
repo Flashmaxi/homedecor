@@ -2,6 +2,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import PhotoAlbum from "react-photo-album";
 import { rolo } from "../../data";
+import { Nazad } from "../../components/nazad/Nazad";
 
 export default function ZebraiRolo() {
   return (
@@ -69,6 +70,7 @@ export default function ZebraiRolo() {
 
           <PhotoAlbum layout="rows" photos={rolo} />
         </div>
+        <Nazad />
       </section>
       <Footer />
     </>

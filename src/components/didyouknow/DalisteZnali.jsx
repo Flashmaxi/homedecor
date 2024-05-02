@@ -10,7 +10,7 @@ import Rimske from "/public/assets/didyouknow/rimske-roletne.jpg";
 import RimskeZavese from "/public/assets/didyouknow/rimske-zavese.jpg";
 import RoletneTrska from "/public/assets/didyouknow/roletne-trska.jpg";
 import Tamne from "/public/assets/didyouknow/tamne-zavese.jpg";
-import Tit from "/public/assets/didyouknow/tit-mehanizam.jpg";
+import Tit from "/public/assets/didyouknow/mech.avif";
 import Venecijaneri from "/public/assets/didyouknow/venecijaneri.jpg";
 import Zapadna from "/public/assets/didyouknow/zapadna-ruza.jpg";
 
@@ -19,12 +19,12 @@ export default function DalisteZnali() {
     {
       image: Draperije,
       zanimljivost:
-        "Ceo stan smo opremili, ali spavaca soba je ostavila najbolji utisak. Svaka preporuka za saradnju!",
+        "Iako smo danas uglavnom svi zadovoljni sa garnišnom i dve zavese, u prošlosti, u cilju da se prikaže bogatstvo, porodice koje su to mogle da priušte su gotovo uvek insistirale na tome da im prozori budu potpuno “odeveni”, od zavesa, prozirnih i neprozirnih draperija i panela, pa do raskošnih ukrasnih detalja.",
     },
     {
       image: Kraljevske,
       zanimljivost:
-        "Iako smo danas uglavnom svi zadovoljni sa garnišnom i dve zavese, u prošlosti, u cilju da se prikaže bogatstvo, porodice koje su to mogle da priušte su gotovo uvek insistirale na tome da im prozori budu potpuno “odeveni”, od zavesa, prozirnih i neprozirnih draperija i panela, pa do raskošnih ukrasnih detalja.",
+        "Kažu da je Majkl Noaks (Michael Noakes), slikar portreta Kraljice Elizabete, jednom prilikom video knjigu dezena i boja u Bakingemskoj palati. Kada je upitao kraljicu o tome, odgovorila mu je da želi da bira kombinaciju boja za nove zavese u palati i upitala ga da joj pomogne. Naravno, gospodin Noaks je bio vrlo počastvovan da može da pomogne.",
     },
     {
       image: Kruzne,
@@ -39,12 +39,12 @@ export default function DalisteZnali() {
     {
       image: Rimske,
       zanimljivost:
-        "Rimske roletne potiču iz drevnog Rima, čak i pre nego što su stakleni prozori bili izmišljeni. Ove roletne su i danas veoma popularne zvog svoje teksture i načina na koji se pakuju.",
+        "Rimske roletne potiču iz drevnog Rima, čak i pre nego što su stakleni prozori bili izmišljeni. Ove roletne su i danas veoma popularne zbog svoje teksture i načina na koji se pakuju.",
     },
     {
       image: RimskeZavese,
       zanimljivost:
-        "Rimljanima je prilično dosadilo da im prašina i sve ostalo ulazi u domove kroz prozore, pa su došli do genijalne ideje da okače komade odeće iynad proyora i vrata i tako smo su nastale prve Rimske roletne. (Takođe, prvi rashladni sistem).",
+        "Rimljanima je prilično dosadilo da im prašina i sve ostalo ulazi u domove kroz prozore, pa su došli do genijalne ideje da okače komade odeće iznad prozora i vrata i tako smo su nastale prve Rimske roletne. Takođe, prvi rashladni sistem.",
     },
     {
       image: RoletneTrska,
@@ -59,7 +59,7 @@ export default function DalisteZnali() {
     {
       image: Tit,
       zanimljivost:
-        "Tilt mehanizam, koji danas mozemo naći kod gotovo svih roletni, prvi je izumeo i patentirao Američki pronalazač Džon Hempson (John Hampson). Možda je sad parvo vreme da se svi zahvalimo gospodinu Hempsonu na njegovom sjajnom pronalasku.",
+        "Tilt mehanizam, koji danas mozemo naći kod gotovo svih roletni, prvi je izumeo i patentirao Američki pronalazač Džon Hempson (John Hampson). Možda je sad pravo vreme da se svi zahvalimo gospodinu Hempsonu na njegovom sjajnom pronalasku.",
     },
     {
       image: Venecijaneri,
@@ -80,9 +80,9 @@ export default function DalisteZnali() {
             Da li ste znali?
           </h3>
           <p className="mx-auto text-center max-w-[580px] mb-6">
-            Svi vole da čuju zanimljive činjenice. Mi iz HD Group, sastavili smo
-            listu vrlo zanimljivih podataka o našoj omiljenoj temi. Zavesama i
-            roletnama!
+            Svi vole da čuju zanimljive činjenice, a mi smo za Vas sastavili
+            listu interesantnih podataka koje možda niste znali, a tiču se naše
+            omiljene teme: zavese i ostali sistemi za zaštitu od sunca.
           </p>
         </div>
         <div className="w-full">
@@ -92,6 +92,7 @@ export default function DalisteZnali() {
                 <Swiper
                   navigation={true}
                   modules={[Navigation]}
+                  loop={true}
                   className="mySwiper"
                 >
                   {swiperContent.map((items, index) => {

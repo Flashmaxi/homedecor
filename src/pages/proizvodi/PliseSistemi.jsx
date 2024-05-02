@@ -1,5 +1,6 @@
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
+import { Nazad } from "../../components/nazad/Nazad";
 
 export default function PliseSistemi() {
   return (
@@ -19,7 +20,7 @@ export default function PliseSistemi() {
                 imaju antistatička svojstva, što znači da ne skupljaju prašinu
                 ili mirise. Plise sistemi delimično ili potpuno zamračuju
                 prostoriju i daju lep efekat prigušenog svetla ili totalnog
-                mraka u prostoru. Takođe, vrlo su jednostavne za održavanje.
+                mraka u prostoru. Takođe, vrlo su jednostavni za održavanje.
               </p>
             </div>
 
@@ -32,6 +33,7 @@ export default function PliseSistemi() {
             </div>
           </div>
         </div>
+        <Nazad />
       </section>
       <Footer />
     </>

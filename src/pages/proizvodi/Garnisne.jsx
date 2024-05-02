@@ -2,6 +2,7 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import PhotoAlbum from "react-photo-album";
 import { garn } from "../../data";
+import { Nazad } from "../../components/nazad/Nazad";
 
 export default function Garnisne() {
   return (
@@ -13,11 +14,11 @@ export default function Garnisne() {
             <div className="flex-1 order-2 xl:order-none max-w-xl xl:max-w-[610px] flex flex-col items-center xl:items-start gap-8">
               <h2 className="h2">Garnišne</h2>
               <p>
-                Kada razmišljamo o uređenju prozora jedan od važnijih elemenata
-                koji omplemenjuju prostor su zavese, ali pored njih, kao
-                neizostavni element su i odgovarajuće garnišne. Uz odabir
+                Kada razmišljamo o uređenju prozora jedan od najvažnijih
+                elemenata koji omplemenjuju prostor su zavese, ali pored njih,
+                kao neizostavni element su i odgovarajuće garnišne. Uz odabir
                 odgovarajućeg modela i ostalih detalja u enterijeru, garnišne
-                mogu dodatno naglasiti izgled doprineti oplemenjivanju
+                mogu dodatno naglasiti izgled i doprineti oplemenjivanju
                 celokupnog prostora. Od elegantnog i modernog do suptilnog i
                 tradicionalnog, svakako ćete pronaći rešenje koje odgovara Vašem
                 stilu. U našoj ponudi možete pronaći mnogobrojne modele
@@ -38,6 +39,7 @@ export default function Garnisne() {
 
           <PhotoAlbum layout="rows" photos={garn} />
         </div>
+        <Nazad />
       </section>
       <Footer />
     </>

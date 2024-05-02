@@ -47,7 +47,8 @@ export const hero = {
 
 export const usluge = {
   title: "Naši proizvodi",
-  subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  subtitle:
+    "'Uređenje enterijera nije samo vezano za estetiku, već i za stvaranje prostora koji poboljšava kvalitet života. Materijali, boje i teksture igraju ključnu ulogu u tom procesu.' - Candice Olson",
   items: [
     {
       image: Zavesed,

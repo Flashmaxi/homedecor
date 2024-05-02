@@ -17,19 +17,23 @@ export default function Navbar() {
     <header className="sticky top-0 h-[90px] lg:h-[120px] shadow-xl z-30 bg-[#292f36]">
       <div className="border-b border-accent">
         <div className="container mx-auto">
-          <ul className="flex-row justify-end hidden lg:flex">
-            <li className="ps-2 py-1  mr-[65px]">
+          <ul className="flex-row justify-end hidden lg:flex items-center">
+            <li className="ps-2 py-1 mr-4">
               <a
-                className="text-white"
+                className="text-white text-[14px]"
                 href="https://www.google.com/maps/place/Ju%C5%BEni+bulevar+130,+Beograd/@44.7932961,20.4822093,17z/data=!3m1!4b1!4m5!3m4!1s0x475a707a536f248d:0xddf60ed519be39be!8m2!3d44.7932923!4d20.484398?shorturl=1"
               >
-                <span className="text-accent">Adresa: </span>Južni bulevar 130,
-                Beograd
+                <span className="text-accent text-[14px]">Adresa: </span>Južni
+                bulevar 130, Beograd
               </a>
             </li>
-            <li className="ps-2 py-1 lg:flex">
-              <a className="text-white" href="tel:+381 11 64 35 570">
-                <span className="text-accent">Telefon: </span>+381 11 64 35 570
+            <li className="ps-2 py-1">
+              <a
+                className="text-white text-[14px]"
+                href="tel:+381 11 64 35 570"
+              >
+                <span className="text-accent text-[14px]">Telefon: </span>+381
+                11 64 35 570
               </a>
             </li>
           </ul>
@@ -47,7 +51,7 @@ export default function Navbar() {
           </div>
           <ul
             className={`fixed bg-[#292f36] w-full text-white overflow-hidden border-t  border-accent top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300 ${
-              isMenuOpen ? "h-auto" : "h-0"
+              isMenuOpen ? "h-auto py-[15px]" : "h-0"
             }`}
           >
             {navigation.map((item, index) => {

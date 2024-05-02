@@ -2,6 +2,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import PhotoAlbum from "react-photo-album";
 import { photos } from "../../data";
+import { Nazad } from "../../components/nazad/Nazad";
 
 export default function ZaveseiDraperije() {
   return (
@@ -24,13 +25,15 @@ export default function ZaveseiDraperije() {
                 sam izgled, ali i na osećaj topline u prostoru. Zavese, pored
                 dekorativne, imaju i funkciju regulisanja propuštanja dnevne
                 svetlosti u prostor, kao i da, u večernjim satima, umanje
-                transparentost unutrašnjeg prostora ka spoljašnjem. Draperije se
-                razlikuju od zavesa po tome što se izrađuju od čvrstih i
-                otpornih materijala, koji imaju gusto tkanje. Pored dekorativnog
-                efekta koji, uz kombinovanje sa zavesama, svakom prostoru daje
-                jednu sasvim novu dimenziju, draperije imaju i funkciju
-                delimičnog ili potpunog neutralisanja dnevne svetlosti u
-                prostoru i obratno, transparentsnost unutrašnjeg prostora ka
+                transparentost unutrašnjeg prostora ka spoljašnjem.
+              </p>
+              <p>
+                Draperije se razlikuju od zavesa po tome što se izrađuju od
+                čvrstih i otpornih materijala, koji imaju gusto tkanje. Pored
+                dekorativnog efekta koji, uz kombinovanje sa zavesama, svakom
+                prostoru daje jednu sasvim novu dimenziju, draperije imaju i
+                funkciju delimičnog ili potpunog neutralisanja dnevne svetlosti
+                u prostoru i obratno, transparentsnost unutrašnjeg prostora ka
                 spoljašnjem.
               </p>
             </div>
@@ -46,6 +49,7 @@ export default function ZaveseiDraperije() {
 
           <PhotoAlbum layout="rows" photos={photos} />
         </div>
+        <Nazad />
       </section>
       <Footer />
     </>

@@ -2,6 +2,7 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import PhotoAlbum from "react-photo-album";
 import { posteljine } from "../../data";
+import { Nazad } from "../../components/nazad/Nazad";
 
 export default function PosteljinePeskiri() {
   return (
@@ -40,6 +41,7 @@ export default function PosteljinePeskiri() {
 
           <PhotoAlbum layout="rows" photos={posteljine} />
         </div>
+        <Nazad />
       </section>
       <Footer />
     </>

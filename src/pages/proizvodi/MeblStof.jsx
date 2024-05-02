@@ -2,6 +2,7 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import PhotoAlbum from "react-photo-album";
 import { mebl } from "../../data";
+import { Nazad } from "../../components/nazad/Nazad";
 
 export default function MeblStof() {
   return (
@@ -41,6 +42,7 @@ export default function MeblStof() {
 
           <PhotoAlbum layout="rows" photos={mebl} />
         </div>
+        <Nazad />
       </section>
       <Footer />
     </>

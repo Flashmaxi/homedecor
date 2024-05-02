@@ -2,6 +2,7 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import PhotoAlbum from "react-photo-album";
 import { dv } from "../../data";
+import { Nazad } from "../../components/nazad/Nazad";
 
 export default function Dvenecijaneri() {
   return (
@@ -38,6 +39,7 @@ export default function Dvenecijaneri() {
 
           <PhotoAlbum layout="rows" photos={dv} />
         </div>
+        <Nazad />
       </section>
       <Footer />
     </>

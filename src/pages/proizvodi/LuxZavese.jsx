@@ -1,5 +1,6 @@
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
+import { Nazad } from "../../components/nazad/Nazad";
 
 export default function LuxZavese() {
   return (
@@ -16,7 +17,7 @@ export default function LuxZavese() {
                 Vaš poslovni prostor ili dom. Prave se od visokokvalitetnog
                 platna, koji može biti raznoraznih boja ili dezena, različite
                 svetlopropustljivosti, koji će se najbolje ukopiti u enterijer
-                Važeg prostora. Trakaste zavese se postavljaju vertikalno i
+                Vašeg prostora. Trakaste zavese se postavljaju vertikalno i
                 pomoću kanapa se mogu skupljati ili širiti, kao i rotirati u
                 stranu, tako da sami birate količinu svetlosti koju želite u
                 prostoriji. LUX TRAKASTE ZAVESE podrazumevaju isti mehanizam,
@@ -36,6 +37,7 @@ export default function LuxZavese() {
             </div>
           </div>
         </div>
+        <Nazad />
       </section>
       <Footer />
     </>
